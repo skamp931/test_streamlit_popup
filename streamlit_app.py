@@ -103,7 +103,7 @@ st.session_state.tab = st.sidebar.selectbox("選択してください。", ["Ind
 # delay
 #time.sleep(0.1)
 #
-#_tab=st.session_state.tab
+_tab=st.session_state.tab
 #_layer=st.session_state.layer
 if _tab=="Index":
     if _layer==0 or _layer==1:
