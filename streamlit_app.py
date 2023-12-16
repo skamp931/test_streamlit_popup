@@ -26,7 +26,7 @@ def layer_session(layer=0):
     st.session_state.layer=layer
 
 def reset_session():
-    st.session_state.now_tab=None
+    st.session_state.now_tab = None
     layer_session()
   
 #expand
@@ -87,7 +87,7 @@ def sample_content(i):
     onclick=lambda:[count(),print(f"ck[{ck()}]")],
     done = lambda:[
       pop(f"pop_botton push now! [{ck()}]"),
-      st.success(f"succes![{ck()}]"),
+      st.success(f"success![{ck()}]"),
       time.sleep(1)
     ]
   )
