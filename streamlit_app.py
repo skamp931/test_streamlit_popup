@@ -1,6 +1,9 @@
 import streamlit as st
 import time
 
+[theme]
+backgroundColor = "#F000F0"
+
 st.markdown(
     """
     <style>
