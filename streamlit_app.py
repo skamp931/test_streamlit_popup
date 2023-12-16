@@ -1,13 +1,11 @@
 import streamlit as st
 import time
 
-"""
-st.set_page_config(
-  page_title = "streamlit page to uo popupwindows",
-  layout = "wide",
-  initial_sidebar_state = "expanded"
-)
-"""
+#st.set_page_config(
+#  page_title = "streamlit page to uo popupwindows",
+#  layout = "wide",
+#  initial_sidebar_state = "expanded"
+#)
 
 #init
 def init():
