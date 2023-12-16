@@ -1,12 +1,12 @@
 import streamlit as st
 import time
 
-[theme]
-backgroundColor = "#F000F0"
 
 st.markdown(
     """
     <style>
+    backgroundColor = "#F000F0"
+
     .reportview-container {
         background: url("https://jp.freepik.com/free-photo/image-of-linear-slingshots-on-a-green-background_91607832.htm");
     }
