@@ -6,6 +6,6 @@ st.write("テストデータ記載します")
 st.header('Configuration： Theme')
 st.checkbox(label='Check')
 st.slider(label='Slider')
-a = st.empty()
+b = st.empty()
 a = st.selectbox(label='Choose Your Favourite', options=['Snowpeak', 'Rakuten', 'Toyota Motors'])
-print(a)
+b = a
