@@ -98,8 +98,8 @@ def sample_content(i):
 #init()
 #st.session_state.ck=0
 
-#st.session_state.tab = st.sidebar.selectbox("選択してください。", ["Index","List"])
-tab_session()# TAB切り替えの管理
+st.session_state.tab = st.sidebar.selectbox("選択してください。", ["Index","List"])
+#tab_session()# TAB切り替えの管理
 # delay
 time.sleep(0.1)
 #
