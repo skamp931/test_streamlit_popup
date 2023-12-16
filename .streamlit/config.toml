@@ -3,5 +3,5 @@
 primaryColor="#ff0000" # 赤
 backgroundColor="#ffffff" # 黒
 secondaryBackgroundColor="#696969" # ダークグレー
-textColor="#FFFFFF" # 白
+textColor="#000000" # 白
 font="sans serif"
