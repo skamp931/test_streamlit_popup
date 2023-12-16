@@ -5,7 +5,7 @@ st.markdown(
     """
     <style>
     .reportview-container {
-        background: url("https://www.example.com/image.jpg");
+        background: url("https://jp.freepik.com/free-photo/image-of-linear-slingshots-on-a-green-background_91607832.htm");
     }
    </style>
     """,
