@@ -95,7 +95,7 @@ def sample_content(i):
   )
 
 # body
-init()
+#init()
 st.session_state.ck=0
 
 st.session_state.tab = st.sidebar.selectbox("選択してください。", ["Index","List"])
