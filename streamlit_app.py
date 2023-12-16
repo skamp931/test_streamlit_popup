@@ -19,6 +19,8 @@ def init():
 
 def tab_session():
   if not st.session_state.now_tab == st.session_state.tab:
+    print(">>>",st.session_state.now_tab)
+    print(">>>",st.session_state.tab)
     reset_session()
   st.session_state.now_tab = st.session_state.tab
 
