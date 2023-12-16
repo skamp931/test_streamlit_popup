@@ -22,6 +22,13 @@ def tab_session():
     reset_session()
   st.session_state.now_tab = st.session_state.tab
 
+def layer_session(layer=0):
+    st.session_state.layer=layer
+
+def reset_session():
+    st.session_state.now_tab=None
+    layer_session()
+  
 #expand
 def ck():
   if "ck" not in st.session_state:
