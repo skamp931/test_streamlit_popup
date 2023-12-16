@@ -1,7 +1,7 @@
 
 [theme]
 primaryColor="#ff0000" # 赤
-backgroundColor="#ff0000" # 黒
+backgroundColor="#ffffff" # 黒
 secondaryBackgroundColor="#696969" # ダークグレー
 textColor="#FFFFFF" # 白
 font="sans serif"
