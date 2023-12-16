@@ -18,7 +18,7 @@ def init():
     return False
 
 def tab_session():
-  if not st.session_state.now_tab == st,session_state.tab:
+  if not st.session_state.now_tab == st.session_state.tab:
     reset_session()
   st.session_state.now_tab = st.session_state.tab
 
