@@ -101,10 +101,10 @@ def sample_content(i):
 st.session_state.tab = st.sidebar.selectbox("選択してください。", ["Index","List"])
 #tab_session()# TAB切り替えの管理
 # delay
-time.sleep(0.1)
+#time.sleep(0.1)
 #
-_tab=st.session_state.tab
-_layer=st.session_state.layer
+#_tab=st.session_state.tab
+#_layer=st.session_state.layer
 if _tab=="Index":
     if _layer==0 or _layer==1:
         layer_session(1)
