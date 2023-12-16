@@ -10,12 +10,12 @@ st.set_page_config(
 #init
 def init():
   if "init" not in st.session_state:
-  st.session_state.init= True
-  reset_session()
-  count()
-  return True
-else:
-  return False
+    st.session_state.init= True
+    reset_session()
+    count()
+    return True
+  else:
+    return False
 
 def tab_session():
   if not st.session_state.now_tab == st,session_state.tab:
