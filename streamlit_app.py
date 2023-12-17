@@ -31,7 +31,7 @@ co1,co2,co3 = st.columns(3)
 
 co1.button("co1_クリック")
 co2.line_chart(data_1)
-
+co3.metric(label="メトリック3",value=123)
 
 
 #st.form_submit_button("クリック")
