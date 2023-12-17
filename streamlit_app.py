@@ -53,8 +53,8 @@ with col2:
 # widthとheightの引数を使用した例
 column1,column2 = st.columns(2)
 with column1:
-    st.bar_chart(data、width=400、height=200)
+    st.bar_chart(data,width=400,height=200)
 with column2:
-    st.line_chart(data、width=400、height=200)
+    st.line_chart(data,width=400,height=200)
 #st.form_submit_button("クリック")
 #st.experimental_rerun("クリック")
