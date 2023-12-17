@@ -26,13 +26,14 @@ data_1 = [[3,24,35,46,65,666],[100,200,322,43,53,6]]
 
 #st.write(st.session_state)
 
-
 co1,co2,co3 = st.columns(3)
 
 with co1:
   with st.expander("クリックして展開"):
     st.write("非表示のコンテンツ"
+  pass
 
+  
 co2.line_chart(data_1)
 co3.metric(label="メトリック1",value=123)
 
