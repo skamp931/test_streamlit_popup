@@ -19,4 +19,4 @@ st.download_button(
   data=file,
   file_name="写真.png",
   mime="image/jpeg"
-)
+  )
