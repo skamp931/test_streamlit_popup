@@ -43,6 +43,13 @@ option = st.sidebar.selectbox(
   "オプションを選択してください",
   ("option_1","option_2","option_3"))
 st.write("選択したオプション：",option)
-#st.form_submit_button("クリック")
 
+col1、col2 = st.columns(2)
+with col1:
+    st.line_chart([0, 1, 2, 3, 4])
+with col2:
+    st.line_chart([4, 3, 2, 1, 0])
+
+
+#st.form_submit_button("クリック")
 #st.experimental_rerun("クリック")
