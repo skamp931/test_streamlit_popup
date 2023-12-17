@@ -35,6 +35,7 @@ co2.line_chart(data_1)
 
 with co3.container():
   st.write("外側のコンテンツ")
+  st.metric("メタリック",value=123)
   with st.container():
     st.write("内側のコンテンツ")
 
