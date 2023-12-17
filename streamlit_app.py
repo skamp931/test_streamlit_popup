@@ -39,7 +39,10 @@ with co3.container():
   with st.container():
     st.write("内側のコンテンツ")
 
-
+option = st.sidebar.selectbox(
+  "オプションを選択してください",
+  ("option_1","option_2","option_3"))
+st.write("選択したオプション：",option)
 #st.form_submit_button("クリック")
 
 #st.experimental_rerun("クリック")
