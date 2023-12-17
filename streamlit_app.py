@@ -11,6 +11,6 @@ a = st.selectbox(label='Choose Your Favourite', options=['Snowpeak', 'Rakuten', 
 st.write(a)
 b = "and"
 
-if st.button("クリック",help = "クリックするとandが表示されます",use_container_width=True):
+if st.button("クリック",help = "クリックするとandが表示されます",use_container_width=True,on_click=lambda:st.write("クリックされました")):
   st.write(b)
   
