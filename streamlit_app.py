@@ -44,6 +44,10 @@ option = st.sidebar.selectbox(
   ("option_1","option_2","option_3"))
 st.write("選択したオプション：",option)
 
+if option == "option_1":
+  if st.button("ページ１のボタン"):
+    st.title("ページ１のタイトル")
+
 col1,col2 = st.columns(2)
 with col1:
     st.line_chart([0, 1, 2, 3, 4])
