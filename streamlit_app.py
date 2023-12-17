@@ -16,7 +16,7 @@ if st.button("クリック",help = "クリックするとandが表示されま�
   
 st.download_button(
   label="写真をダウンロードする",
-  data=file,
+  data="data",
   file_name="写真.png",
   mime="image/jpeg"
   )
