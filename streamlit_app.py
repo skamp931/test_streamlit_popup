@@ -29,7 +29,10 @@ data_1 = [[3,24,35,46,65,666],[100,200,322,43,53,6]]
 
 co1,co2,co3 = st.columns(3)
 
-co1.button("co1_クリック")
+with co1:
+  with st.expander("クリックして展開"):
+    st.write("非表示のコンテンツ"
+
 co2.line_chart(data_1)
 co3.metric(label="メトリック1",value=123)
 
