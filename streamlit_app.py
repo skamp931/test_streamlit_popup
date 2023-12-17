@@ -22,7 +22,7 @@ st.download_button(
 
 st.link_button("リンク先に飛ぶ","https://google.co.jp",use_container_width=True)
 
-data_1 = [[3,24,35,46,65,666].[1,2,3,4,5,6]]
+data_1 = [[3,24,35,46,65,666],[1,2,3,4,5,6]]
 
 #st.write(st.session_state)
 
