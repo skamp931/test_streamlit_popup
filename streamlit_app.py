@@ -24,5 +24,5 @@ st.link_button("リンク先に飛ぶ","https://google.co.jp",use_container_widt
 
 data_1 = [[1,2,3,4,5,6],[1,2,3,4,5,6]]
 
-st.write(st.session_state)
+#st.write(st.session_state)
 
