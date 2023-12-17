@@ -21,3 +21,4 @@ st.download_button(
   mime="text/plain"
   )
 
+st.link_button("リンク先に飛ぶ","https://google.co.jp")
