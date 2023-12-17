@@ -28,6 +28,6 @@ data_1 = [[3,24,35,46,65,666],[100,200,322,43,53,6]]
 
 st.line_chart(data_1)
 
-st.form_submit_button("クリック")
+#st.form_submit_button("クリック")
 
 st.experimental_rerun("クリック")
