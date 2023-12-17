@@ -14,3 +14,9 @@ b = "and"
 if st.button("クリック",help = "クリックするとandが表示されます",use_container_width=True,on_click=lambda:st.write("クリックされました")):
   st.write(b)
   
+st.download_button(
+  label="写真をダウンロードする",
+  data=file,
+  file_name="写真.png",
+  mime="image/jpeg"
+)
