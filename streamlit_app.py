@@ -10,6 +10,16 @@ a = st.selectbox(label='Choose Your Favourite', options=['Snowpeak', 'Rakuten', 
 st.write(a)
 b = "and"
 
+option = st.sidebar.selectbox(
+  "オプションを選択してください",
+  ("option_1","option_2","option_3"))
+st.write("選択したオプション：",option)
+
+if option == "option_1":
+  if st.button("ページ１のボタン"):
+    st.title("ページ１のタイトル")
+
+
 if st.button("クリック",help = "クリックするとandが表示されます",use_container_width=True,on_click=lambda:st.write("クリックされました")):
   st.write(b)
   
@@ -38,15 +48,6 @@ with co3.container():
   st.metric("メタリック",value=123)
   with st.container():
     st.write("内側のコンテンツ")
-
-option = st.sidebar.selectbox(
-  "オプションを選択してください",
-  ("option_1","option_2","option_3"))
-st.write("選択したオプション：",option)
-
-if option == "option_1":
-  if st.button("ページ１のボタン"):
-    st.title("ページ１のタイトル")
 
 col1,col2 = st.columns(2)
 with col1:
