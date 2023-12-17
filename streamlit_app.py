@@ -10,3 +10,4 @@ b = st.empty()
 a = st.selectbox(label='Choose Your Favourite', options=['Snowpeak', 'Rakuten', 'Toyota Motors'])
 st.write(a)
 b = "and"
+st.write(b)
