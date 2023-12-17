@@ -26,3 +26,4 @@ data_1 = [[1,2,3,4,5,6],[1,2,3,4,5,6]]
 
 #st.write(st.session_state)
 
+st.line_chart(data_1)
