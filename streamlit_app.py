@@ -1,7 +1,6 @@
 import streamlit as st
 import time
 
-
 st.write("テストデータ記載します")
 st.header('Configuration： Theme')
 st.checkbox(label='Check')
@@ -23,5 +22,7 @@ st.download_button(
 
 st.link_button("リンク先に飛ぶ","https://google.co.jp",use_container_width=True)
 
+data_1 = [[1,2,3,4,5,6],[1,2,3,4,5,6]]
 
+st.write(st.session_state)
 
