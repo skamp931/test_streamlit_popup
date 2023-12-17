@@ -32,7 +32,11 @@ with co1.expander("クリックして展開"):
     st.write("非表示のコンテンツ")
   
 co2.line_chart(data_1)
-co3.metric(label="メトリック1",value=123)
+
+with co3.container():
+  st.write("外側のコンテンツ")
+  with st.container():
+    st.write("内側のコンテンツ")
 
 
 #st.form_submit_button("クリック")
